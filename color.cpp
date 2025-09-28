@@ -25,10 +25,13 @@ public:
     cout << "Green: " << green <<endl;
     cout << "Blue: " << blue <<endl;
    }
-
-
 };
 
 int main(){
+Color myColor;
+myColor.setRed(255);
+myColor.setBlue(256);
+myColor.setGreen(236);
+myColor.print();
 
 }
